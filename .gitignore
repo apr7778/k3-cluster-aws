@@ -1,0 +1,24 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate.d/
+terraform-import/
+.terraform.lock.hcl
+
+# Terraform backup files
+*.tfstate.backup
+
+# Terraform variables
+# *.tfvars
+# auto.tfvars
+
+# Local Terraform directories
+.terraform/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
